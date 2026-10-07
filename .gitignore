@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.session
+data/
+private/
+reports/
+output/
+onboarding.json

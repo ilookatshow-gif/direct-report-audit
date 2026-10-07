@@ -1,0 +1,14 @@
+{
+  "id":"direct-report-audit",
+  "version":"0.1.0",
+  "author":"Дмитрий Лукашов",
+  "scope":"Offline normalized placement CSV/TSV aggregation and manual-review candidates. No API or campaign writes.",
+  "rights_status":"original_code_reviewed",
+  "license":"MIT",
+  "origin":"New original standalone code and educational fixture prepared for the owner's open-module publication request on 2026-10-07; no private Harness source copied.",
+  "dependencies":"Python standard library only",
+  "synthetic_example":true,
+  "telemetry":false,
+  "channel":"https://t.me/lookatsoul",
+  "site":"https://lookatshow.ru/executive?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=module"
+}
