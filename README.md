@@ -1,4 +1,10 @@
-# direct-report-audit
+# Audit Yandex Direct placements with your AI agent
+
+[Русская инструкция](README.ru.md) · [All Lookatshow open tools](https://github.com/ilookatshow-gif/lookatshow-open-tools) · [Download v0.1.0](https://github.com/ilookatshow-gif/direct-report-audit/releases/tag/v0.1.0)
+
+Check a Yandex Direct / RSYA placement CSV or TSV before deciding what to investigate. Get total spend, clicks, CPC/CPA and candidates for manual review. Give the package to Codex or Claude Code and ask it to run the example below.
+
+This is an independent open module of **Lookatshow, a unified marketing operating system for AI agents**, prepared by Dmitry Lukashov. It works free without the core. [How the workflows fit together](https://github.com/ilookatshow-gif/lookatshow-open-tools/blob/main/ARCHITECTURE.md).
 
 Standalone offline Yandex Direct placement-export audit. Python 3.9+, standard library only: no Harness, credentials, API, or network. Aggregates placements, calculates totals/CPC/CPA, and flags **manual-review candidates**. No automatic exclusions, campaign changes, or savings claims.
 
@@ -8,6 +14,8 @@ python3 direct_report_audit.py schema
 python3 direct_report_audit.py --json audit examples/synthetic-placements.csv --max-cpa 1000
 python3 -B -m unittest discover -s tests -v
 ```
+
+The fictional example totals 97 clicks, 6,000 RUB in cost and 5 conversions; total CPA is 1,200.00 RUB. Two placements need manual review with the example thresholds. These are repeatable teaching data, not real campaign results or automatic exclusion recommendations. [Step-by-step guide and result screenshot](https://lookatshow.ru/practice/analiz-ploshchadok-rsya-csv/?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=demo).
 
 Optional POSIX local install, with no downloads or pip. Existing commands are not overwritten without `--replace`:
 
