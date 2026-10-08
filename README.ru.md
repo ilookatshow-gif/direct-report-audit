@@ -1,4 +1,10 @@
-# direct-report-audit
+# Проверьте площадки РСЯ с помощью ИИ-агента
+
+[Все открытые инструменты Lookatshow](https://github.com/ilookatshow-gif/lookatshow-open-tools/blob/main/README.ru.md) · [Бесплатный архив v0.1.0](https://github.com/ilookatshow-gif/direct-report-audit/releases/tag/v0.1.0)
+
+Сведите расход, клики и конверсии по площадкам Яндекс Директа, рассчитайте CPC и CPA, получите кандидатов на ручную проверку. Дайте пакет Codex или Claude Code и попросите повторить учебный пример.
+
+Это самостоятельный открытый модуль **Lookatshow — единой системы управления маркетингом для ИИ-агентов**, которую развивает Дмитрий Лукашов. Модуль работает бесплатно без ядра. [Как устроен общий подход](https://github.com/ilookatshow-gif/lookatshow-open-tools/blob/main/ARCHITECTURE.md).
 
 Небольшой самостоятельный offline CLI для проверки выгрузки Яндекс Директа по площадкам. Python 3.9+, только стандартная библиотека; Harness, ключи, кабинет и сеть не нужны.
 
@@ -14,6 +20,8 @@ python3 direct_report_audit.py schema
 python3 direct_report_audit.py --json audit examples/synthetic-placements.csv --max-cpa 1000
 python3 -B -m unittest discover -s tests -v
 ```
+
+Контрольный результат вымышленного примера: 97 кликов, расход 6 000 ₽, 5 конверсий, общий CPA 1 200,00 ₽. При порогах из команды два кандидата требуют ручной проверки. Это учебные числа, не результат моей рекламы и не готовый список минус-площадок. [Пошаговая инструкция и скрин результата](https://lookatshow.ru/practice/analiz-ploshchadok-rsya-csv/?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=demo).
 
 Установка не обращается в сеть и не требует pip. Не перезаписывает существующую команду без `--replace`:
 
