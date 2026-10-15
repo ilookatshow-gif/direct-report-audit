@@ -77,8 +77,13 @@ JSON: `{ "ok": true, "command": "audit", "result": {...} }`. В `result` — `in
 
 Есть необязательная companion-инструкция: `skills/direct-report-audit/SKILL.md`. Она не устанавливается автоматически.
 
-## Автор и помощь с внедрением
+## Автор и следующие шаги
 
-Автор нового модуля — **Дмитрий Лукашов**. [Telegram](https://t.me/lookatsoul) · [Внедрение и автоматизация](https://lookatshow.ru/executive?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=readme).
+Можно бесплатно повторить пример и проверить свою нормализованную выгрузку. Подписка, передача контактов и покупка ядра не нужны.
+
+Модуль подготовил **Дмитрий Лукашов**. [Практические разборы ИИ для бизнеса в Telegram](https://t.me/lookatsoul).
+
+- Хотите сами разбирать отчёты с ИИ-агентом? [Обсудить личное обучение](https://lookatshow.ru/executive?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=training). Разберём, как поставить задачу и сверить результат с исходными данными.
+- Нужен регулярный разбор под данные и процессы вашей компании? [Обсудить внедрение](https://lookatshow.ru/ai-implementation/?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=implementation). Объём проекта, доступы, критерии приёмки и стоимость согласуем отдельно. Внедрение не входит в обучение.
 
 MIT распространяется только на новый код и документацию этого модуля; права на пользовательские данные/названия/API поставщиков не предоставляются. См. `LICENSE` и `NOTICE.md`. Никакой сторонний код/skills или данные Harness не копировались.

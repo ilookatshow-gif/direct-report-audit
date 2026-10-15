@@ -61,8 +61,13 @@ Install: “Read this module's README, run stdlib unit tests, install with insta
 
 Use: “Audit my local export with min-clicks=30, min-cost=1500, max-cpa=2000. Summarize totals and manual-review candidates with reasons/limitations. Do not change campaigns or upload exports/results to GitHub or other services.” Local CLI output passed to a cloud agent is subject to that provider's data policy. Optional companion instructions: `skills/direct-report-audit/SKILL.md`; no automatic skill registration.
 
-## Author
+## Author and optional next steps
 
-New module by **Дмитрий Лукашов (Dmitry Lukashov)**. [Telegram](https://t.me/lookatsoul) · [Implementation and automation](https://lookatshow.ru/executive?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=readme).
+Run the example and audit your own normalized export for free. No subscription, contact details or paid core are required.
+
+Prepared by **Дмитрий Лукашов (Dmitry Lukashov)**. [Practical business AI on Telegram](https://t.me/lookatsoul).
+
+- Want to review reports with an AI agent yourself? [Discuss personal training](https://lookatshow.ru/executive?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=training). Learn to frame the task and check the result against your source data.
+- Need a repeatable review process adapted to your company's data and workflow? [Discuss implementation](https://lookatshow.ru/ai-implementation/?utm_source=github&utm_medium=open_module&utm_campaign=direct-report-audit&utm_content=implementation). Project scope, access, acceptance criteria and cost are agreed separately; training does not include implementation.
 
 MIT covers this new code/documentation only, not user data or third-party products/names/API rights. See LICENSE/NOTICE.md. No Harness/third-party source code or skills copied.
